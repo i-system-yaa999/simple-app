@@ -18,6 +18,8 @@ down:
 restart:
 	./vendor/bin/sail restart
 destroy:
+
+
 	./vendor/bin/sail down --rmi all --volumes --remove-orphans
 ps:
 	./vendor/bin/sail ps
